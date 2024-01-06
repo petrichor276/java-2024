@@ -107,6 +107,46 @@ public class hello {
         } else {
             System.out.println("不及格");
         }
+
+        //while循环
+        int count = 0;
+        while (count < 3) {
+            System.out.println("执行中...");
+            count += 1;
+        }
+
+        int count1 = 0;
+        do {
+            System.out.println("执行中...");
+            count1 += 1;
+        } while (count1 < 3);
+
+        //for循环
+        // i++ 先赋值在运算
+        //++i 先运算在赋值
+        for (int i = 0; i < 10; i++) {
+            System.out.println("哈哈哈");
+        }
+
+        String[] nameList = {"苏苏", "菲菲", "莹莹", "丽丽"};
+        // nameList.length   4
+        // nameList[0]
+        //for (int idx = 0; idx < nameList.length; idx++){
+        //            String ele = nameList[idx];
+        //            System.out.println(ele);
+        //        }
+        for (String ele : nameList) {
+            System.out.println(ele);
+        }
+
+        String[] nameList1 = {"莉莉", "菲菲", "莹莹", "丽丽"};
+        for (int idx = 0; idx < nameList.length; idx++) {
+            String ele = nameList1[idx];
+            if (ele == "莹莹"){
+                break;
+            }
+            System.out.println(ele);
+        }
     }
 }
 
