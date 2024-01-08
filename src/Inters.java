@@ -59,5 +59,7 @@ public class Inters {
     public static void main(String[] args) {
         Person111 p = new Person111("日天", 83, "ritian@live.com");
         p.f1();
+
+        p.f1(123);
     }
 }
