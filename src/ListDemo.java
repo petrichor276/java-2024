@@ -17,15 +17,16 @@ public class ListDemo {
         String value = (String) data.get(1);
 //        value.length;
 
-        // String value = (String) data.get(1);
-//        Object temp = data.get(1);
-//        String value = (String) temp; // 转化可转换的数据
+         String value1 = (String) data.get(1);
+        Object temp = data.get(1);
+        String value2 = (String) temp; // 转化可转换的数据
 
-        System.out.println(value);
+        System.out.println(value1);
 
         int xo = (int) data.get(2);
         System.out.println(xo);
 
+        //修改或替换
         data.set(0, "哈哈哈哈");
         System.out.println(data);
 
@@ -39,6 +40,8 @@ public class ListDemo {
         boolean exists = data.contains("莹莹");
         System.out.println(exists);
 
+        //清空数组
+        //data.clear();
 
         for (Object item : data) {
             System.out.println(item);
