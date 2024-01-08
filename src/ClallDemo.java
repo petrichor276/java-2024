@@ -21,4 +21,5 @@ public class ClallDemo {
         // 若不需要对象名，也可以直接使用对象
         new ClallDemo().message();
     }
+
 }
