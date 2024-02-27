@@ -4,6 +4,7 @@ class Persons {
     public String name;
     public Integer age;
     public String email;
+    private String count;
 
     // 构造方法1
     public Persons() {
